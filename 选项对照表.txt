@@ -1,0 +1,15 @@
+<以下数值均为默认值>
+
+T_size=10			#元胞大小
+T_room=1			#元胞间隙
+T_radius=1		#作用域半径
+T_birth=[3,3]		#诞生所需元胞数区间
+T_live=[2,3]		#存在所需元胞数区间
+world_history_max_len=100	#最大历史元胞状态记录数量
+display_history=0		#是否显示残影
+history_color1=(200,0,0)	#基本残影颜色
+display_history_depth=4	#残影层数
+display_history_kind=0	#是否使用残影x^(-1)衰变
+display_T_Surface_side=1	#是否显示T_Surface边框
+advance_pause=0		#是否开局暂停
+ghost_color=(255,255,0)	#鬼影颜色
